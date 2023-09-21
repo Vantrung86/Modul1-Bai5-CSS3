@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <style>
+        ul li:nth-child(odd){
+            color: red;
+        }
+    </style>
+</head>
+<body>
+    <!--
+        Quy tac dat ten class
+        -khong nen dat so
+        -dat theo ten tieng anh
+        -nen dat theo chuan BEM
+        BEM:
+        block: thằng cha to nhất
+        element: thằng con
+        modifier: bổ nghĩa cho block và element
+        *********************
+        Truoc khi css phai reset css
+        de dua css ve trang thai ban dau: *{margin:0; padding:0; box-sizing: boder-box}
+        *********************
+        Ngoài px,% còn có đơn vị khác là em, rem
+        1.rem phụ thuộc vào màn hình
+        2.em phụ thuộc vào cha chứa nó
+        **********************
+        CSS3: phien ban moi cua css
+        -cung cap cac bo chon selector moi
+        1 ma mau: rgba, hsl, hsla
+        2 đổ bóng: drop shadow
+        *********************8
+
+        Position: dinh vi tri
+        1.static
+        2.relative: vi tri tuong doi
+        -lấy vị trí đang đứng làm gốc
+        -rồi sét các thuộc tính: top, botton, left, right
+        3.absolute: vi tri tuyet doi
+        -sẽ ăn theo thằng cha chứa nó gần nhất
+        -có thuộc tính position
+        *Neu cha chua no ko co position thi an theo trinh duyet
+        4.fixed:  dung lam header
+        5.sticky:  khi dùng thanh cuộn scroll thì ăn theo
+        ***************
+        FLEX
+    -->
+    <div class="container">
+        <div class="container_header">
+            <div class="container_header-title"></div>
+        </div>
+        <div class="container_main"></div>
+        <div class="container_footer"></div>
+    </div>
+    <p>lorem</p>
+    <ul>
+        <li>thu 1</li>
+        <li>thu 2</li>
+        <li>thu 3</li>
+        <li>thu 4</li>
+        <li>thu 5</li>
+    </ul>
+</body>
+</html>

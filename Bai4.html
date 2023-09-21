@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Document</title>
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css"
+    />
+    <style>
+      * {
+        margin: 0;
+        padding: 0;
+        box-sizing: border-box;
+      }
+      .header {
+        background-color: black;
+        color: white;
+        padding: 10px;
+      }
+      .main {
+        display: flex;
+        justify-content: center;
+      }
+      .main .main__article {
+        text-align: center;
+        width: 500px;
+        padding: 50px 20px;
+      }
+      .main__article p {
+        margin: 20px 0;
+      }
+      .btn {
+        color: white;
+        padding: 7px;
+        border: none;
+        border-radius: 5px;
+      }
+      .btn__main {
+        background-color: blue;
+      }
+      .btn__secondary {
+        background-color: rgb(20, 19, 19);
+      }
+      .container {
+        display: flex;
+        flex-wrap: wrap;
+      }
+      .container__item {
+        width: 33.333%;
+        padding: 20px;
+       
+      }
+      .container__item p{
+        padding: 10px;
+      }
+      .container__item--img img {
+        max-width: 100%;
+      }
+      .container__content {
+        display: flex;
+        justify-content: space-between;
+      }
+      .container__button button{
+        float: left;
+        padding: 3px 7px;
+      }
+    </style>
+  </head>
+  <body>
+    <header>
+      <div class="header">
+        <div class="header__top">
+          <h2><i class="fa-solid fa-camera"></i> Album</h2>
+        </div>
+      </div>
+    </header>
+    <main>
+      <div class="main">
+        <div class="main__article">
+          <h2>Album example</h2>
+          <p>
+            Lorem ipsum dolor sit amet consectetur, adipisicing elit. Qui eum
+            eos nihil eius veniam, porro, autem accusantium harum atque ipsa
+            doloribus illo amet? Sit ipsa officiis reiciendis. Optio, ipsam
+            tempora.
+          </p>
+          <button class="btn btn__main">Main call to action</button>
+          <button class="btn btn__secondary">Secondary action</button>
+        </div>
+      </div>
+      <div class="container">
+        <div class="container__item">
+          <div class="container__item--img">
+            <img
+              src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis id
+            ullam eos excepturi
+          </p>
+          <div class="container__content">
+            <div class="container__button">
+                <button>View</button>
+                <button>Edit</button>
+            </div>
+            <div class="container__min">8 mins</div>
+          </div>
+        </div>
+        <div class="container__item">
+          <div class="container__item--img">
+            <img
+              src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis id
+            ullam eos excepturi
+          </p>
+          <div class="container__content">
+            <div class="container__button">
+              <button>View</button>
+              <button>Edit</button>
+            </div>
+            <div class="container__min">8 mins</div>
+          </div>
+        </div>
+        <div class="container__item">
+          <div class="container__item--img">
+            <img
+              src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis id
+            ullam eos excepturi
+          </p>
+          <div class="container__content">
+            <div class="container__button">
+              <button>View</button>
+              <button>Edit</button>
+            </div>
+            <div class="container__min">8 mins</div>
+          </div>
+        </div>
+        <div class="container__item">
+          <div class="container__item--img">
+            <img
+              src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis id
+            ullam eos excepturi
+          </p>
+          <div class="container__content">
+            <div class="container__button">
+              <button>View</button>
+              <button>Edit</button>
+            </div>
+            <div class="container__min">8 mins</div>
+          </div>
+        </div>
+        <div class="container__item">
+          <div class="container__item--img">
+            <img
+              src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis id
+            ullam eos excepturi
+          </p>
+          <div class="container__content">
+            <div class="container__button">
+              <button>View</button>
+              <button>Edit</button>
+            </div>
+            <div class="container__min">8 mins</div>
+          </div>
+        </div>
+        <div class="container__item">
+          <div class="container__item--img">
+            <img
+              src="https://images.unsplash.com/photo-1682687220945-922198770e60?ixlib=rb-4.0.3&ixid=M3wxMjA3fDF8MHxlZGl0b3JpYWwtZmVlZHwxfHx8ZW58MHx8fHx8&auto=format&fit=crop&w=800&q=60"
+              alt=""
+            />
+          </div>
+          <p>
+            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Nobis id
+            ullam eos excepturi
+          </p>
+          <div class="container__content">
+            <div class="container__button">
+              <button>View</button>
+              <button>Edit</button>
+            </div>
+            <div class="container__min">8 mins</div>
+          </div>
+        </div>
+      </div>
+    </main>
+  </body>
+</html>
